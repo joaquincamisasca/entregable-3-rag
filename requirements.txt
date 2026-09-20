@@ -1,0 +1,24 @@
+# Core
+python-dotenv==1.0.1
+pydantic>=2.7.4,<3.0.0
+
+# LangChain (LCEL, prompts, output parser, text splitters)
+langchain-core==0.3.15
+langchain-text-splitters==0.3.2
+langchain-openai==0.2.6
+langchain-anthropic==0.2.4
+langchain-ollama==0.2.0
+langchain-chroma==0.1.4
+
+# Embeddings locales (no requieren API key, no dependen de PyTorch)
+fastembed==0.4.2
+
+# Base vectorial local
+chromadb==0.5.20
+
+# Conteo de tokens para el chunking
+tiktoken==0.8.0
+
+# Testing (mockea el LLM y el vectorstore, no requiere API key)
+pytest==8.3.3
+pytest-asyncio==0.24.0

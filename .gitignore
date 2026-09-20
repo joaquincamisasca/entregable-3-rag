@@ -1,0 +1,26 @@
+# Variables de entorno
+.env
+.env.local
+
+# Base vectorial local (se regenera corriendo ingest.py)
+vectorstore/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
